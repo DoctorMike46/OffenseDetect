@@ -1,7 +1,7 @@
-# Offensive-Language-Detector-Threads
+# OffenseDetect
 Progetto per l'esame di Fondamenti di Data Science e Machine Learning. È stato sviluppato un modello per la classificazione automatica del linguaggio offensivo su Threads e Tiktok.
 
-La documentazione completa in formato PDF, contenente informazioni dettagliate sui dataset utilizzati nel progetto, è disponibile su GitHub al seguente link (https://github.com/grauso-t/Offensive-Language-Detector/blob/main//doc/Documentazione.pdf).
+La documentazione completa in formato PDF, contenente informazioni dettagliate sui dataset utilizzati nel progetto, è disponibile su GitHub al seguente link (https://github.com/DoctorMike46/OffenseDetect/blob/main//doc/documentazione.pdf).
 
 ## Setup del progetto
 
@@ -23,7 +23,6 @@ Attiva l’ambiente virtuale:
 
 ### 2. Installa le dipendenze
 ```bash
-(se hai una GPU compatibile con CUDA) pip install -r requirements_gpu.txt
 (uso solo CPU) pip install -r requirements_cpu.txt
 
 ```
@@ -42,11 +41,6 @@ Assicurati che l'ambiente virtuale sia attivo e che tutte le dipendenze siano in
 - **Linear SVM**:
   ```bash
   models/linear_svm/train.py
-   ```
-
-- **BERT**:
-  ```bash
-  models/bert_trainer/train.py
    ```
 
 ### 4. Esecuzione della classificazione
